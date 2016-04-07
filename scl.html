@@ -1,0 +1,1961 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>App</title>
+            <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
+            <link rel="stylesheet" href="bootstrap/bootstrap-theme.min.css">
+            <link href="font-awesome-4.5.0/css/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+            <link rel="stylesheet" type="text/css" href="css/main.css">
+            <link rel="stylesheet" type="text/css" href="css/responsive.css">
+        
+  
+        </head>
+        <body>
+            <div id="wrapper">
+               <nav class="navbar navbar-default" role="navigation">
+                  <div class="contain">
+                    <div class="navbar-header ">
+                      <div class="navbar-brand navbar-brand-centered"><img src="img/logo.png"></div>
+                    </div>
+                  </div>
+                </nav> 
+                <!-- Sidebar -->
+
+                <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+                    <ul class="nav sidebar-nav">
+                        <li class="sidebar-brand">
+                        <a href="index.html">
+                           HOME
+                        </a>
+                        </li>
+                        <li>
+                            <a href="home.html">PERSONAL HEALTH QUESTIONNAIRE (PHQ) </a>
+                        </li>
+                        <li>
+                        <a href="scl.html">SYMPTOM CHECKLIST-90-R (SCL-90)</a>
+                        </li>
+                         <li>
+                            <a href="les.html">LIFE EVENT</a>
+                        </li>
+                         <li>
+                            <a href="addiction.html">ADDICTION</a>
+                        </li>
+                        <li>
+                            <a href="sleep.html">SLEEP</a>
+                        </li>
+                        <li>
+                            <a href="profile.html">PROFILE</a>
+                        </li>
+                        <li>
+                            <a href="article.html">ARTICLES</a>
+                        </li>
+                        <li>
+                            <a href="video.html">MEDITATION</a>
+                        </li>
+                        <li>
+                            <audio controls autoplay loop>
+                                <source src="audio/med.mp3" type='audio/mp3'>
+                                <p>Your user agent does not support the HTML5 Audio element.</p>
+                            </audio>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- /#sidebar-wrapper -->
+
+                <!-- Page Content -->
+                <div id="page-content-wrapper">
+                    <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                        <span class="hamb-top"></span>
+                        <span class="hamb-middle"></span>
+                        <span class="hamb-bottom"></span>
+                    </button>
+
+                    <div class="container">
+                        <div id="rootwizard">
+                            <!--navbar starts -->
+                            <div class="navbar">
+                                <div class="navbar-inner">
+                                    <div class="container">
+                                        <ul>
+                                            
+                                            <li><a href="#tab1" data-toggle="tab">Basic</a></li>
+                                            <li><a href="#tab2" data-toggle="tab">Basic</a></li>
+                                            <li><a href="#tab3" data-toggle="tab">Address</a></li>
+                                            <li><a href="#tab4" data-toggle="tab">Address</a></li>
+                                            <li><a href="#tab5" data-toggle="tab">Address</a></li>
+                                            <li><a href="#tab6" data-toggle="tab">Address</a></li>
+                                            <li><a href="#tab7" data-toggle="tab">Address</a></li>
+                                            <li><a href="#tab8" data-toggle="tab">Address</a></li>
+                                            <li><a href="#tab9" data-toggle="tab">Address</a></li>
+                                            <li><a href="#tab10" data-toggle="tab">Address</a></li>
+                                            <li><a href="#tab11" data-toggle="tab">Address</a></li>
+                                            <li><a href="#tab12" data-toggle="tab">Basic</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--navbar ends -->
+
+
+                            <!-- form wizard content starts -->
+                            <div class="tab-content">
+                                <!-- wizard step 1 starts-->
+                                <div class="tab-pane" id="tab1">
+                                    <p style="text-align: justify;">The Symptom Checklist-90-R (SCL-90-R) - <b>Global Severity Index.</b></p></br>
+                                    <p style="text-align: justify;">
+The Symptom Checklist-90-R (SCL-90-R) instrument helps evaluate a broad range of psychological problems and symptoms of psychopathology. The instrument is also useful in measuring patient progress or treatment outcomes..
+                                    </p>
+                                </div>
+                                <div class="tab-pane" id="tab2">
+                                    <!-- progress bar for step1 starts -->
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                                            0%
+                                        </div>
+                                    </div>                      
+                                    <!-- progress bar for step1 ends -->
+                                    <ol type="A" start="1" id="once">
+                                        <li>HOW MUCH WERE YOU BOTHERED BY?
+                                            <ol>
+                                                <li>
+                                                    Soreness of your muscles
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="one1" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one1" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one1" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one1" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one1" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Numbness or tingling in parts of your body
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="one2" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one2" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one2" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one2" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one2" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Heavy feelings in your arms or legs
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="one3" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one3" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one3" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one3" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one3" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Weakness in parts of your body
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="one4" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one4" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one4" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one4" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one4" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Pain in the heart or chest
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="one5" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one5" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one5" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one5" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one5" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Hot or cold spells
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="one6" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one6" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one6" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one6" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one6" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Pain in lower back
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="one7" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one7" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one7" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one7" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one7" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Trouble in getting your breath
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="one8" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one8" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one8" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one8" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one8" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Faintness or dizziness
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="one9" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one9" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one9" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one9" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one9" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    A lump in your throat
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="one10" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one10" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one10" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one10" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one10" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Headaches
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="one11" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one11" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one11" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one11" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one11" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Nausea or upset stomach
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="one12" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one12" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one12" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one12" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="one12" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                            </ol>
+                                        </li>
+                                    </ol>
+
+
+                                </div>
+                                <!-- wizard step 1 ends-->
+
+                                <div class="tab-pane" id="tab3">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
+                                            10%
+                                        </div>
+                                    </div>
+                                    <ol type="A" start="2" id="twice">
+                                        <li>HOW MUCH WERE YOU BOTHERED BY?
+                                            <ol type="1" start="13">
+                                                <li>
+                                                    Having to check and double check what you do
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="two1" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two1" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two1" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two1" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two1" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Having to do things very slowly to insure correctness
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="two2" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two2" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two2" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two2" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two2" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Your mind going blank
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="two3" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two3" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two3" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two3" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two3" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Trouble remembering things
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="two4" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two4" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two4" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two4" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two4" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Difficultly making decisions
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="two5" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two5" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two5" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two5" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two5" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Trouble concentrating
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="two6" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two6" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two6" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two6" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two6" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Worried about sloppiness or carelessness
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="two7" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two7" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two7" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two7" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two7" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling blocked in getting things done
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="two8" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two8" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two8" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two8" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two8" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Having to repeat the same actions i.e. counting, washing
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="two9" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two9" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two9" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two9" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two9" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Unwanted thoughts, etc. that won’t leave your mind
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="two10" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two10" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two10" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two10" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="two10" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                            </ol>
+                                        </li>
+                                    </ol>
+                                </div>
+                                <div class="tab-pane" id="tab4">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="" aria-valuemax="100" style="width: 20%;">
+                                            20%
+                                        </div>
+                                    </div>                      
+                                    <ol type="A" start="3" id="thrice">
+                                        <li>HOW MUCH WERE YOU BOTHERED BY?
+                                            <ol type="1" start="23">
+                                                <li>
+                                                    Feeling critical of others
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="three1" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three1" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three1" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three1" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three1" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling shy or uneasy with the opposite sex
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="three2" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three2" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three2" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three2" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three2" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Your feelings being easily hurt
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="three3" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three3" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three3" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three3" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three3" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling others don’t understand you or are unsympathetic
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="three4" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three4" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three4" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three4" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three4" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling people are unfriendly or dislike you
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="three5" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three5" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three5" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three5" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three5" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling inferior to others
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="three6" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three6" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three6" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three6" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three6" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling uneasy when people are watching or talking about you
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="three7" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three7" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three7" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three7" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three7" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling self conscious with others
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="three8" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three8" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three8" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three8" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three8" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling uncomfortable when eating or drinking in public
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="three9" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three9" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three9" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three9" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="three9" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                            </ol>
+                                        </li>
+                                    </ol>   
+                                </div>
+                                <div class="tab-pane" id="tab5">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="" aria-valuemax="100" style="width: 30%;">
+                                            30%
+                                        </div>
+                                    </div>                      
+                                    <ol type="A" start="4" id="fourth">
+                                        <li>HOW MUCH WERE YOU BOTHERED BY?
+                                            <ol type="1" start="32">
+                                                <li>
+                                                    Loss of sexual interest or pleasure
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="four1" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four1" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four1" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four1" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four1" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling low in energy or slowed down
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="four2" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four2" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four2" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four2" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four2" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Thoughts of ending your life
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="four3" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four3" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four3" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four3" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four3" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Crying easily
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="four4" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four4" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four4" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four4" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four4" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling of being trapped or caught
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="four5" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four5" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four5" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four5" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four5" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Blaming yourself for things
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="four6" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four6" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four6" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four6" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four6" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling lonely
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="four7" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four7" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four7" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four7" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four7" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling blue
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="four8" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four8" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four8" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four8" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four8" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Worrying too much about things
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="four9" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four9" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four9" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four9" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four9" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling no interest in things
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="four10" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four10" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four10" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four10" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four10" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling hopelessness about the future
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="four11" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four11" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four11" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four11" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four11" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling everything is an effort
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="four12" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four12" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four12" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four12" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four12" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling of worthlessness
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="four13" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four13" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four13" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four13" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="four13" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                            </ol>
+                                        </li>
+                                    </ol> 
+                                </div>
+                                <div class="tab-pane" id="tab6">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="" aria-valuemax="100" style="width: 40%;">
+                                            40%
+                                        </div>
+                                    </div>                      
+                                    <ol type="A" start="5" id="fifth">
+                                        <li>HOW MUCH WERE YOU BOTHERED BY?
+                                            <ol type="1" start="45">
+                                                <li>
+                                                    Nervousness or shakiness inside
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="five1" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five1" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five1" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five1" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five1" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Trembling
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="five2" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five2" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five2" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five2" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five2" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Suddenly scared for no reason
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="five3" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five3" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five3" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five3" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five3" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling fearful
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="five4" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five4" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five4" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five4" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five4" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Heart pounding or racing
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="five5" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five5" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five5" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five5" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five5" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling tense or keyed up
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="five6" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five6" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five6" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five6" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five6" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                   Spells of terror and panic
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="five7" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five7" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five7" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five7" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five7" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling so restless you can’t sit at all
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="five8" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five8" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five8" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five8" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five8" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling that familiar things are strange or unreal
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="five9" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five9" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five9" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five9" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five9" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling pushed to get things done
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="five10" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five10" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five10" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five10" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="five10" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                            </ol>
+                                        </li>
+                                    </ol>   
+                                </div>
+                                <div class="tab-pane" id="tab7">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="" aria-valuemax="100" style="width: 50%;">
+                                            50%
+                                        </div>
+                                    </div>                      
+                                    <ol type="A" start="6" id="sixth">
+                                        <li>HOW MUCH WERE YOU BOTHERED BY?
+                                            <ol type="1" start="55">
+                                                <li>
+                                                    Feeling easily annoyed or irritated
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="six1" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="six1" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="six1" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="six1" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="six1" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Temper outburst that you cannot control
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="six2" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="six2" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="six2" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="six2" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="six2" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Having urges to beat, injure or harm someone
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="six3" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="six3" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="six3" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="six3" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="six3" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Having urges to break or smash something
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="six4" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="six4" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="six4" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="six4" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="six4" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Getting into frequent arguments
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="six5" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="six5" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="six5" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="six5" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="six5" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Shouting or throwing things
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="six6" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="six6" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="six6" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="six6" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="six6" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                            </ol>
+                                        </li>
+                                    </ol>  
+                                </div>
+                                <div class="tab-pane" id="tab8">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="" aria-valuemax="100" style="width: 60%;">
+                                            60%
+                                        </div>
+                                    </div>                      
+                                    <ol type="A" start="7" id="seventh">
+                                        <li>HOW MUCH WERE YOU BOTHERED BY?
+                                            <ol type="1" start="61">
+                                                <li>
+                                                    Feeling afraid in open spaces or on the streets
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="seven1" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="seven1" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="seven1" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="seven1" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="seven1" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling afraid to go out of your house alone
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="seven2" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="seven2" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="seven2" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="seven2" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="seven2" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling afraid to travel on buses, sub-ways or trains
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="seven3" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="seven3" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="seven3" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="seven3" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="seven3" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling uneasy in crowds, such as at a movie
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="seven4" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="seven4" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="seven4" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="seven4" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="seven4" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling nervous when you are left alone
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="seven5" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="seven5" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="seven5" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="seven5" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="seven5" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling afraid you will faint in public
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="seven6" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="seven6" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="seven6" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="seven6" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="seven6" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Having to avoid certain things, etc. cause they frighten you
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="seven7" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="seven7" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="seven7" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="seven7" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="seven7" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                            </ol>
+                                        </li>
+                                    </ol> 
+                                </div>
+                                <div class="tab-pane" id="tab9">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="" aria-valuemax="100" style="width: 70%;">
+                                            70%
+                                        </div>
+                                    </div>                      
+                                    <ol type="A" start="8" id="eighth">
+                                        <li>HOW MUCH WERE YOU BOTHERED BY?
+                                            <ol type="1" start="68">
+                                                <li>
+                                                    Feeling others are to blame for most of your troubles
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="eight1" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="eight1" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="eight1" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="eight1" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="eight1" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling that most people cannot be trusted
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="eight2" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="eight2" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="eight2" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="eight2" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="eight2" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling that you are watched or talked about by others
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="eight3" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="eight3" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="eight3" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="eight3" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="eight3" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Having ideas or beliefs that others do not share
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="eight4" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="eight4" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="eight4" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="eight4" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="eight4" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Others not giving you proper credit for your achievements
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="eight5" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="eight5" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="eight5" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="eight5" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="eight5" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling that people will take advantage of you if you let them
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="eight6" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="eight6" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="eight6" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="eight6" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="eight6" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                            </ol>
+                                        </li>
+                                    </ol>
+                                </div>
+                                <div class="tab-pane" id="tab10">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="" aria-valuemax="100" style="width: 80%;">
+                                            80%
+                                        </div>
+                                    </div>                      
+                                    <ol type="A" start="9" id="ninth">
+                                        <li>HOW MUCH WERE YOU BOTHERED BY?
+                                            <ol type="1" start="74">
+                                                <li>
+                                                    The idea that someone else can control your thoughts
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="nine1" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine1" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine1" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine1" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine1" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Hearing voices that other people do not hear
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="nine2" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine2" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine2" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine2" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine2" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Other people being aware of your private thoughts
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="nine3" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine3" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine3" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine3" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine3" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Having thoughts that are not your own
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="nine4" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine4" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine4" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine4" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine4" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling lonely even when you are with people
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="nine5" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine5" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine5" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine5" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine5" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Having thoughts of sex that bother you a lot
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="nine6" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine6" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine6" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine6" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine6" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    The idea that you should be punished for your sins
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="nine7" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine7" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine7" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine7" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine7" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    The idea that something serious is wrong with your body
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="nine8" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine8" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine8" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine8" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine8" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Never felling close to another person
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="nine9" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine9" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine9" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine9" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine9" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    The idea that something is wrong with your mind
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="nine10" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine10" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine10" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine10" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="nine10" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                            </ol>
+                                        </li>
+                                    </ol>   
+                                </div>
+                                <div class="tab-pane" id="tab11">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="" aria-valuemax="100" style="width: 90%;">
+                                            90%
+                                        </div>
+                                    </div>                      
+                                    <ol type="A" start="10" id="tenth">
+                                        <li>HOW MUCH WERE YOU BOTHERED BY?
+                                            <ol type="1" start="84">
+                                                <li>
+                                                    Poor appetite
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="ten1" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="ten1" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="ten1" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="ten1" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="ten1" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Overeating
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="ten2" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="ten2" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="ten2" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="ten2" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="ten2" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                   Trouble falling asleep
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="ten3" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="ten3" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="ten3" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="ten3" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="ten3" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Awakening in the early morning
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="ten4" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="ten4" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="ten4" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="ten4" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="ten4" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Sleep that is restless or disturbed
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="ten5" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="ten5" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="ten5" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="ten5" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="ten5" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Thoughts of death or dying
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="ten6" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="ten6" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="ten6" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="ten6" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="ten6" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                                <li>
+                                                    Feeling of guilt
+                                                    <div class="radio">
+                                                        <label><input type="radio" name="ten7" value="0">Not at All</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="ten7" value="1">A little Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="ten7" value="2">Moderately</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="ten7" value="3">Quite a Bit</label>
+                                                    </div>
+                                                    <div class="radio">
+                                                      <label><input type="radio" name="ten7" value="4">Extremely</label>
+                                                    </div> 
+                                                </li>
+                                            </ol>
+                                        </li>
+                                    </ol>
+                                </div>
+                                <div class="tab-pane" id="tab12">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="" aria-valuemax="100" style="width: 100%;">
+                                            100%
+                                        </div>
+                                    </div>                      
+                                    <div class="col-md-12">
+                                        <h3>Assessment Report <br> ( <span id="timeStamp"></span> )</h3>
+                                    </div>
+                                    <ul>
+                                        <li>The following tests conducted, shows;
+                                            <ol type="A">
+                                                <li>Somiatization: <span id="a"></span></li>
+                                                <li>Obsessive Compulsive: <span id="b"></span></li>
+                                                <li>Interpersonal Sensitivity: <span id="c"></span></li>
+                                                <li>Depression: <span id="d"></span></li>
+                                                <li>Anxiety: <span id="e"></span></li>
+                                                <li>Hostility: <span id="f"></span></li>
+                                                <li>Phobic Anxiety: <span id="g"></span></li>
+                                                <li>Paranoid Ideation: <span id="h"></span></li>
+                                                <li>I-Pshychotism: <span id="i"></span></li>
+                                                <li>J-Neuroticism: <span id="j"></span></li>
+                                            </ol>
+                                        </li>
+                                    </ul>
+                                    
+                                    <div>
+                                        <h3>Recommended Action</h3>
+                                        <p class="les">Get in touch with a consultant for a free consultation</p>
+                                        <p class="les">Fill the Form</p>
+                                    </div>
+                                    <form class="form-horizontal" role="form" method="post" id="myForm">
+                                        <div class="form-group">
+                                          <label class="control-label col-sm-2" for="email">Name:</label>
+                                          <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="myName" placeholder="Name" required>
+                                          </div>
+                                        </div>
+                                        <div class="form-group">
+                                          <label class="control-label col-sm-2" for="email">Email:</label>
+                                          <div class="col-sm-10">
+                                            <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                                          </div>
+                                        </div>
+                                        <div class="form-group">
+                                          <label class="control-label col-sm-2" for="pwd">Phone:</label>
+                                          <div class="col-sm-10">          
+                                            <input type="text" class="form-control" id="pwd" placeholder="Phone Number">
+                                          </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="comment" class="control-label col-sm-2">Comment:</label>
+                                            <div class="col-sm-10">
+                                                <textarea class="form-control" id="comment" placeholder="comment"></textarea>
+                                            </div>
+                                        </div>
+                                        <p id="error11"></p>
+                                        <div class="form-group">        
+                                          <div class="col-sm-10 col-sm-offset-2">
+                                             <button type="submit" class="btn btn-primary btn-block" id="submit">Submit</button>
+                                          </div>
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <ul class="pager wizard">
+                                    <li class="previous first" style="display:none;"><a href="#" class="btn btn-dark">First</a></li>
+                                    <li class="previous"><a href="#" class="btn-dark">Previous</a></li>
+                                    <li class="next last" style="display:none;"><a href="#" class="btn-primary">Last</a></li>
+                                    <li class="next"><a href="#" class="btn btn-primary">Next</a></li>
+                                </ul>
+                            </div>  
+                        </div>
+                        <!-- form wizard content ends -->
+                    </div>
+                </div>
+                <!-- /#page-content-wrapper -->
+
+                
+            </div>
+
+
+
+
+
+              <script src="Scripts/jquery-2.1.4.min.js"></script>
+              <script src="bootstrap/bootstrap.min.js"></script>
+              <script type="text/javascript" src="Scripts/jquery.bootstrap.wizard.min.js"></script>
+               <script type="text/javascript" src="js/scl.js"></script>
+               <script type="text/javascript" src= "js/profile.js"></script>
+              <!--<script type="text/javascript" src= "js/profile.js"></script>-->
+
+        </body>
+
+    </html>
+

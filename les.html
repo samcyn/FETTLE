@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Life Event</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/gh-buttons.css">
+    <link href="font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap-select.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap-toggle.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+</head>
+<body>
+    <div id="wrapper">
+       <nav class="navbar navbar-default" role="navigation">
+          <div class="contain">
+            <div class="navbar-header ">
+              <div class="navbar-brand navbar-brand-centered"><img src="img/logo.png"></div>
+            </div>
+          </div>
+        </nav> 
+        <!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li class="sidebar-brand">
+                        <a href="index.html">
+                           HOME
+                        </a>
+                </li>
+                <li>
+                    <a href="home.html">PERSONAL HEALTH QUESTIONNAIRE (PHQ) </a>
+                </li>
+                <li>
+                <a href="scl.html">SYMPTOM CHECKLIST-90-R (SCL-90)</a>
+                </li>
+                 <li>
+                    <a href="les.html">LIFE EVENT</a>
+                </li>
+                 <li>
+                    <a href="addiction.html">ADDICTION</a>
+                </li>
+                <li>
+                    <a href="sleep.html">SLEEP</a>
+                </li>
+                <li>
+                    <a href="profile.html">PROFILE</a>
+                </li>
+                <li>
+                    <a href="article.html">ARTICLES</a>
+                </li>
+                <li>
+                    <a href="video.html">MEDITATION</a>
+                </li>
+                <li>
+                    <audio controls autoplay loop>
+                        <source src="audio/med.mp3" type='audio/mp3'>
+                        <p>Your user agent does not support the HTML5 Audio element.</p>
+                    </audio>
+                </li>
+            </ul>
+        </nav>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+                <span class="hamb-middle"></span>
+                <span class="hamb-bottom"></span>
+            </button>
+
+            <div class="container">
+                <div id="rootwizard">
+                    <!--navbar starts -->
+                    <div class="navbar">
+                        <div class="navbar-inner">
+                            <div class="container">
+                                <ul>
+                                    
+                                    <li><a href="#tab1" data-toggle="tab">Basic</a></li>
+                                    <li><a href="#tab2" data-toggle="tab">Basic</a></li>
+                                    <li><a href="#tab3" data-toggle="tab">Address</a></li>
+                                    <li><a href="#tab4" data-toggle="tab">Address</a></li>
+                                    <li><a href="#tab5" data-toggle="tab">Address</a></li>
+                                    <li><a href="#tab6" data-toggle="tab">Address</a></li>
+                                    <li><a href="#tab7" data-toggle="tab">Address</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--navbar ends -->
+
+
+                    <!-- form wizard content starts -->
+                    <div class="tab-content">
+                        <!-- wizard step 1 starts-->
+                        <div class="tab-pane" id="tab1">
+                            <p style="text-align: center;">Life Events Scale</p>
+                        </div>
+                        <div class="tab-pane" id="tab2">
+                            <!-- progress bar for step1 starts -->
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="0" style="width: 0%;">
+                                    0%
+                                </div>
+                            </div>                      
+                            <!-- progress bar for step1 ends -->
+                            <ol>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Death of Spouse
+                                           <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="100">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Divorce
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="73">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Marital Separation
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="65">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Jail Term
+                                            <div class="button-group">
+                                               <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="63">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Death of a close family member
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="63">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Personal injury or illness
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="53">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Marriage
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="50">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Fired at Work
+                                            <div class="button-group">
+                                               <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="47">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Marital reconciliation
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="45">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Retirement
+                                            <div class="button-group">
+                                               <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="45">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                            </ol>
+                        </div>
+                        <!-- wizard step 1 ends-->
+
+                        <div class="tab-pane" id="tab3">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="20" style="width: 20%;">
+                                    20%
+                                </div>
+                            </div>
+                            <ol type="1" start="11">
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Change in health of family member
+                                           <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="44">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Pregnancy
+                                            <div class="button-group">
+                                               <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="40">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Sex difficulties
+                                            <div class="button-group">
+                                               <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="39">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Gain of a new family member
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="39">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Business readjustment
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="39">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Change in financial state
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="38">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Death of a close friend
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="37">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Change to different line of work
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="36">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Change in number of arguments with spouse
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="35">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Mortgage over #22,500,000
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="31">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                            </ol>
+                        </div>
+                        <div class="tab-pane" id="tab4">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="" aria-valuemax="40" style="width: 40%;">
+                                    40%
+                                </div>
+                            </div>                      
+                            <ol type="1" start="21">
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Foreclosure of mortgage or loan
+                                           <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="30">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Change in responsibilities at work
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="29">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Son or daughter leaving home
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="29">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Trouble with in-laws
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="29">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Outstanding personal achievement
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="26">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Partner begins or stops work
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="26">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Begin or end school
+                                            <div class="button-group">
+                                               <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="26">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Change in living conditions
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="25">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Revision of personal habits
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="24">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Trouble with boss
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="23">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                            </ol>  
+                        </div>
+                        <div class="tab-pane" id="tab5">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="" aria-valuemax="60" style="width: 60%;">
+                                    60%
+                                </div>
+                            </div>                      
+                            <ol type="1" start="31">
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Change in work hours or conditions
+                                           <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="20">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Change in residence
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="20">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Change in schools
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="20">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Change in recreation
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="19">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Change in church activities
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="19">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Change in social activities
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="18">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Mortgage or loan less than &#8358;22,500,000
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="17">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Change in sleeping habits
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="16">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Change in number of family get-togethers
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="15">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Change in eating habits
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="15">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                            </ol>  
+                        </div>
+                        <div class="tab-pane" id="tab6">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="" aria-valuemax="80" style="width: 80%;">
+                                    80%
+                                </div>
+                            </div>                      
+                            <ol type="1" start="41">
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Vacation
+                                           <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="13">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Christmas
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="12">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group">
+                                        <label for="text" style="width: 100%;">Minor violations of the law
+                                            <div class="button-group">
+                                                <input type="checkbox" data-toggle="toggle" data-on="YES" data-off="NO" data-onstyle="danger" data-offstyle="success" data-style="ios" value="11">
+                                            </div>
+                                        </label>
+                                        <input type="text" class="form-control" id="" data-format="DD-MM-YYYY" data-template="D MMM YYYY" name="date" value="">
+                                    </div>
+                                </li> 
+                            </ol>
+                        </div>
+                        <div class="tab-pane" id="tab7">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="" aria-valuemax="100" style="width: 100%;">
+                                    100%
+                                </div>
+                            </div>                      
+                            <div class="col-md-12">
+                                <h3>Assessment Report <br>( <span id="timeStamp"></span> )</h3>
+                            </div>
+                            <h3 style="font-size: 14px; font-weight: normal;">This Test suggests you are having</br><span id="response" style="color: #b300b3; font-weight: bold;">A relativly low amount of life change and a low susceptibility stress induced health breakdown</span><br>A further clinical evaluation will be more diagonostic.</h3>
+                            
+                            <div>
+                                <h3>Recommended Action</h3>
+                                <p class="les">Get in touch with a consultant for a free consultation</p>
+                                <p class="les">Fill the Form</p>
+                            </div>
+                            <form class="form-horizontal" role="form" method="post" id="myForm">
+                                <div class="form-group">
+                                  <label class="control-label col-sm-2" for="email">Name:</label>
+                                  <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="myName" placeholder="Name" required>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <label class="control-label col-sm-2" for="email">Email:</label>
+                                  <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <label class="control-label col-sm-2" for="pwd">Phone:</label>
+                                  <div class="col-sm-10">          
+                                    <input type="text" class="form-control" id="pwd" placeholder="Phone Number">
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="comment" class="control-label col-sm-2">Comment:</label>
+                                    <div class="col-sm-10">
+                                        <textarea class="form-control" id="comment" placeholder="comment"></textarea>
+                                    </div>
+                                </div>
+                                <p id="error11"></p>
+                                <div class="form-group">        
+                                  <div class="col-sm-10 col-sm-offset-2">
+                                     <button type="submit" class="btn btn-primary btn-block" id="submit">Submit</button>
+                                  </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <ul class="pager wizard">
+                            <li class="previous first" style="display:none;"><a href="#" class="btn btn-dark">First</a></li>
+                            <li class="previous"><a href="#" class="btn-dark">Previous</a></li>
+                            <li class="next last" style="display:none;"><a href="#" class="btn-primary">Last</a></li>
+                            <li class="next"><a href="#" class="btn btn-primary">Next</a></li>
+                        </ul>
+                    </div>  
+                </div>
+                <!-- form wizard content ends -->
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+        
+    </div>
+
+
+
+
+
+      <script src="Scripts/jquery-2.1.4.min.js"></script>
+      <script src="bootstrap/bootstrap.min.js"></script>
+      <script type="text/javascript" src="Scripts/jquery.bootstrap.wizard.min.js"></script>
+      <script src="Scripts/moment.min.js"></script>
+      <script src="Scripts/combodate.js"></script>
+      <script src="Scripts/bootstrap-select.min.js"></script>
+       <script src="Scripts/bootstrap-hover-dropdown.min.js"></script>
+       <script src="Scripts/bootstrap-toggle.min.js"></script>
+      <script type="text/javascript" src="js/les.js"></script>
+      <script type="text/javascript" src= "js/profile.js"></script>
+
+</body>
+
+</html>
+

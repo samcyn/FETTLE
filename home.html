@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>PERSONAL HEALTH QUESTIONNAIRE (PHQ)</title>
+            <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
+            <link rel="stylesheet" href="bootstrap/bootstrap-theme.min.css">
+            <link href="font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet">
+            <link rel="stylesheet" type="text/css" href="css/main.css">
+            <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  
+        </head>
+        <body>
+            <div id="wrapper">
+               <nav class="navbar navbar-default" role="navigation">
+                  <div class="contain">
+                    <div class="navbar-header ">
+                      <div class="navbar-brand navbar-brand-centered"><img src="img/logo.png"></div>
+                    </div>
+                  </div>
+                </nav> 
+                <!-- Sidebar -->
+                <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+                    <ul class="nav sidebar-nav">
+                        <li class="sidebar-brand">
+                        <a href="index.html">
+                           HOME
+                        </a>
+                        </li>
+                        <li>
+                            <a href="home.html">PERSONAL HEALTH QUESTIONNAIRE (PHQ) </a>
+                        </li>
+                        <li>
+                        <a href="scl.html">SYMPTOM CHECKLIST-90-R (SCL-90)</a>
+                        </li>
+                         <li>
+                            <a href="les.html">LIFE EVENT</a>
+                        </li>
+                         <li>
+                            <a href="addiction.html">ADDICTION</a>
+                        </li>
+                        <li>
+                            <a href="sleep.html">SLEEP</a>
+                        </li>
+                        <li>
+                            <a href="profile.html">PROFILE</a>
+                        </li>
+                        <li>
+                            <a href="article.html">ARTICLES</a>
+                        </li>
+                        <li>
+                            <a href="video.html">MEDITATION</a>
+                        </li>
+                        <li>
+                            <audio controls autoplay loop>
+                                <source src="audio/med.mp3" type='audio/mp3'>
+                                <p>Your user agent does not support the HTML5 Audio element.</p>
+                            </audio>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- /#sidebar-wrapper -->
+
+                <!-- Page Content -->
+                <div id="page-content-wrapper">
+                    <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                        <span class="hamb-top"></span>
+                        <span class="hamb-middle"></span>
+                        <span class="hamb-bottom"></span>
+                    </button>
+
+                    <div class="container">
+                        <div id="rootwizard">
+                            <!--navbar starts -->
+                            <div class="navbar">
+                                <div class="navbar-inner">
+                                    <div class="container">
+                                        <ul>
+                                            
+                                            <li><a href="#tab1" data-toggle="tab">Basic</a></li>
+                                            <li><a href="#tab2" data-toggle="tab">Basic</a></li>
+                                            <li><a href="#tab3" data-toggle="tab">Address</a></li>
+                                            <li><a href="#tab4" data-toggle="tab">Address</a></li>
+                                            <li><a href="#tab5" data-toggle="tab">Address</a></li>
+                                            <li><a href="#tab6" data-toggle="tab">Address</a></li>
+                                            <li><a href="#tab7" data-toggle="tab">Address</a></li>
+                                            <li><a href="#tab8" data-toggle="tab">Address</a></li>
+                                            <li><a href="#tab9" data-toggle="tab">Address</a></li>
+                                            <li><a href="#tab10" data-toggle="tab">Address</a></li>
+                                            <li><a href="#tab11" data-toggle="tab">Address</a></li>
+                                            <li><a href="#tab12" data-toggle="tab">Basic</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--navbar ends -->
+
+
+                            <!-- form wizard content starts -->
+                            <div class="tab-content">
+                                <!-- wizard step 1 starts-->
+                                <div class="tab-pane" id="tab1">
+                                    <p style="text-align: justify;">PHQ-9 is used to monitor the severity of depression and response to treatment. However, it can be used to make a tentative diagnosis of depression in at-risk populations - eg, those with coronary heart disease or after stroke.</p>
+                                </div>
+                                <div class="tab-pane" id="tab2">
+                                    <!-- progress bar for step1 starts -->
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                                            0%
+                                        </div>
+                                    </div>                      
+                                    <!-- progress bar for step1 ends -->
+                                    <p id="error1">This field is required</p>
+                                    <p>Little interest or pleasure in doing things</p>
+                                    <div class="radio">
+                                        <label><input type="radio" name="one" value="0">Not difficult at all</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="one" value="1">Somewhat difficult</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="one" value="2">Very difficult</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="one" value="3">Extremely difficult</label>
+                                    </div>
+
+                                </div>
+                                <!-- wizard step 1 ends-->
+
+                                <div class="tab-pane" id="tab3">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
+                                            10%
+                                        </div>
+                                    </div>
+                                    <p id="error2">This field is required</p>
+                                    <p>Feeling down, depressed, or hopeless</p>
+                                    <div class="radio">
+                                        <label><input type="radio" name="two" value="0">Not difficult at all</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="two" value="1">Somewhat difficult</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="two" value="2">Very difficult</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="two" value="3">Extremely difficult</label>
+                                    </div>                      
+
+                                </div>
+                                <div class="tab-pane" id="tab4">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="" aria-valuemax="100" style="width: 20%;">
+                                            20%
+                                        </div>
+                                    </div>                      
+                                    <p id="error3">This field is required</p>
+                                    <p>Trouble falling asleep or awake, or sleeping too much</p>
+                                    <div class="radio">
+                                        <label><input type="radio" name="three" value="0">Not difficult at all</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="three" value="1">Somewhat difficult</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="three" value="2">Very difficult</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="three" value="3">Extremely difficult</label>
+                                    </div>    
+                                </div>
+                                <div class="tab-pane" id="tab5">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="" aria-valuemax="100" style="width: 30%;">
+                                            30%
+                                        </div>
+                                    </div>                      
+                                    <p id="error4">This field is required</p>
+                                    <p>Feeling tired or having little energy. </p>
+                                    <div class="radio">
+                                        <label><input type="radio" name="four" value="0">Not difficult at all</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="four" value="1">Somewhat difficult</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="four" value="2">Very difficult</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="four" value="3">Extremely difficult</label>
+                                    </div>   
+                                </div>
+                                <div class="tab-pane" id="tab6">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="" aria-valuemax="100" style="width: 40%;">
+                                            40%
+                                        </div>
+                                    </div>                      
+                                    <p id="error5">This field is required</p>
+                                    <p>Poor appetite or overeating</p>
+                                    <div class="radio">
+                                        <label><input type="radio" name="five" value="0">Not difficult at all</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="five" value="1">Somewhat difficult</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="five" value="2">Very difficult</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="five" value="3">Extremely difficult</label>
+                                    </div>   
+                                </div>
+                                <div class="tab-pane" id="tab7">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="" aria-valuemax="100" style="width: 50%;">
+                                            50%
+                                        </div>
+                                    </div>                      
+                                    <p id="error6">This field is required</p>
+                                    <p>Feeling bad about yourself or that you're a failure or have let yourself or family down</p>
+                                    <div class="radio">
+                                        <label><input type="radio" name="six" value="0">Not difficult at all</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="six" value="1">Somewhat difficult</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="six" value="2">Very difficult</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="six" value="3">Extremely difficult</label>
+                                    </div>   
+                                </div>
+                                <div class="tab-pane" id="tab8">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="" aria-valuemax="100" style="width: 60%;">
+                                            60%
+                                        </div>
+                                    </div>                      
+                                    <p id="error7">This field is required</p>
+                                    <p>Trouble concentrating on things, such as reading the news paper or watching television</p>
+                                    <div class="radio">
+                                        <label><input type="radio" name="seven" value="0">Not difficult at all</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="seven" value="1">Somewhat difficult</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="seven" value="2">Very difficult</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="seven" value="3">Extremely difficult</label>
+                                    </div>   
+                                </div>
+                                <div class="tab-pane" id="tab9">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="" aria-valuemax="100" style="width: 70%;">
+                                            70%
+                                        </div>
+                                    </div>                      
+                                    <p id="error8">This field is required</p>
+                                    <p>Moving or speaking so slowly that other people could have noticed. or the opposite? being so fidgty</p>
+                                    <div class="radio">
+                                        <label><input type="radio" name="eight" value="0">Not difficult at all</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="eight" value="1">Somewhat difficult</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="eight" value="2">Very difficult</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="eight" value="3">Extremely difficult</label>
+                                    </div>   
+                                </div>
+                                <div class="tab-pane" id="tab10">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="" aria-valuemax="100" style="width: 80%;">
+                                            80%
+                                        </div>
+                                    </div>                      
+                                    <p id="error9">This field is required</p>
+                                    <p>Thought that you would be better off dead, or of hurting yourself</p>
+                                    <div class="radio">
+                                        <label><input type="radio" name="nine" value="0">Not difficult at all</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="nine" value="1">Somewhat difficult</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="nine" value="2">Very difficult</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="nine" value="3">Extremely difficult</label>
+                                    </div>   
+                                </div>
+                                <div class="tab-pane" id="tab11">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="" aria-valuemax="100" style="width: 90%;">
+                                            90%
+                                        </div>
+                                    </div>                      
+                                    <p id="error10">This field is required</p>
+                                    <p>If you checked any problem, how difficult have these problems made it for you to do your work?</p>
+                                    <div class="radio">
+                                        <label><input type="radio" name="ten" value="0">Not difficult at all</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="ten" value="1">Somewhat difficult</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="ten" value="2">Very difficult</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="ten" value="3">Extremely difficult</label>
+                                    </div>   
+                                </div>
+                                <div class="tab-pane" id="tab12">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="" aria-valuemax="100" style="width: 100%;">
+                                            100%
+                                        </div>
+                                    </div>                      
+                                    <div class="col-md-12">
+                                        <h3>Assessment Report <br> ( <span id="timeStamp"></span> )</h3>
+                                    </div>
+                                    <h3 style="font-size: 14px; font-weight: normal;">This Test suggests you are having</br><span id="response"></span><br>A further clinical evaluation will be more diagonostic.</h3>
+                                    
+                                    <div>
+                                        <h3>Recommended Action</h3>
+                                        <p class="les">Get in touch with a consultant for a free consultation</p>
+                                        <p class="les">Fill the Form</p>
+                                    </div>
+                                    <form class="form-horizontal" role="form" method="post" id="myForm">
+                                        <div class="form-group">
+                                          <label class="control-label col-sm-2" for="email">Name:</label>
+                                          <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="myName" placeholder="Name" required>
+                                          </div>
+                                        </div>
+                                        <div class="form-group">
+                                          <label class="control-label col-sm-2" for="email">Email:</label>
+                                          <div class="col-sm-10">
+                                            <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                                          </div>
+                                        </div>
+                                        <div class="form-group">
+                                          <label class="control-label col-sm-2" for="pwd">Phone:</label>
+                                          <div class="col-sm-10">          
+                                            <input type="text" class="form-control" id="pwd" placeholder="Phone Number">
+                                          </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="comment" class="control-label col-sm-2">Comment:</label>
+                                            <div class="col-sm-10">
+                                                <textarea class="form-control" id="comment" placeholder="comment"></textarea>
+                                            </div>
+                                        </div>
+                                        <p id="error11"></p>
+                                        <div class="form-group">        
+                                          <div class="col-sm-10 col-sm-offset-2">
+                                             <button type="submit" class="btn btn-primary btn-block" id="submit">Submit</button>
+                                          </div>
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <ul class="pager wizard">
+                                    <li class="previous first" style="display:none;"><a href="#" class="btn btn-dark">First</a></li>
+                                    <li class="previous"><a href="#" class="btn-dark">Previous</a></li>
+                                    <li class="next last" style="display:none;"><a href="#" class="btn-primary">Last</a></li>
+                                    <li class="next"><a href="#" class="btn btn-primary">Next</a></li>
+                                </ul>
+                            </div>  
+                        </div>
+                        <!-- form wizard content ends -->
+                    </div>
+                </div>
+                <!-- /#page-content-wrapper -->
+
+                
+            </div>
+
+
+
+
+
+              <script src="Scripts/jquery-2.1.4.min.js"></script>
+              <script src="bootstrap/bootstrap.min.js"></script>
+              <script type="text/javascript" src="Scripts/jquery.bootstrap.wizard.min.js"></script>
+              <script type="text/javascript" src="js/main.js"></script>
+              <script type="text/javascript" src= "js/profile.js"></script>
+
+        </body>
+
+    </html>
+
